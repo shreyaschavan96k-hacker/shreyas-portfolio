@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: #111827;
+    color: #f3f4f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #065f46;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #064e3b;
+    border-radius: 5px;
+}
+
+.project-box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    background: #1f2937;
+    border-left: 5px solid #10b981;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    background: #10b981;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #059669;
+}
+
+#formMessage {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #065f46;
+}
